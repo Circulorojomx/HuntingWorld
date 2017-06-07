@@ -26,8 +26,8 @@ class Login:UIViewController{
     
     @IBAction func btmLogin(_ sender: UIButton) {
         var defaults = UserDefaults.standard
-        defaults.set(token, "user_token")
-        defaults.string(forKey: "user_token")
+        //defaults.set(token, "user_token")
+        //defaults.string(forKey: "user_token")
         /*let parameters = [
             "grant_type" : "",
             "client_id" : "",
